@@ -1,3 +1,6 @@
+/* eslint-disable semi */
+/* eslint-disable no-extra-semi */
+/* eslint-disable indent */
 'use strict';
 class ObjectValues {
 

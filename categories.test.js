@@ -1,7 +1,10 @@
+/* eslint-disable no-unused-vars */
 'use strict';
-
-const Categories = require('../categories/categories.js');
-const validator = require('../validator.js');
+/* eslint-disable semi */
+/* eslint-disable no-extra-semi */
+/* eslint-disable indent */
+const Categories = require('./categories/Categories.js');
+const validator = require('./validator.js');
 
 describe('Categories Model', () => {
 

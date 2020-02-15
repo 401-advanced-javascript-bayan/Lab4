@@ -1,3 +1,7 @@
+/* eslint-disable indent */
+/* eslint-disable semi */
+/* eslint-disable no-extra-semi */
+/* eslint-disable indent */
 'use strict';
 
 const DataModel = require('../memory-data-model.js');
@@ -11,7 +15,7 @@ class Product extends DataModel {
             category_id : { type : 'string', required : true},
             price : { type : 'number', required : true},
             weight : Number,
-            quantity_in_stock : { type : 'number',required : true}
+            quantity_in_stock : { type : 'number',required : true},
         }
     }  
 } 
